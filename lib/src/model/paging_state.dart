@@ -75,7 +75,7 @@ class PagingState<PageKeyType, ItemType> {
 
   bool get _hasItems {
     final itemCount = _itemCount;
-    return itemCount != null && itemCount > 0;
+    return itemCount != null && itemCount >  0;
   }
 
   bool get _hasError => error != null;
